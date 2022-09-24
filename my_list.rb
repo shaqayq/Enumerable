@@ -12,7 +12,7 @@ end
 
 # Create our list
 list = Mylist.new(1, 2, 3, 4)
-#  <MyList: @list=[1, 2, 3, 4]>
+#  <MyList: @list=[1, 2, 3, 4]>>
 
 # all? method
 list.all? { |e| e < 5 } # true
